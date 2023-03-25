@@ -42,7 +42,7 @@ function App() {
     <div className="container">
       <div className="cards">
         <div className="card-front">
-          <img src="src/assets/bg-card-front.png" alt="" />
+          <img src="assets/bg-card-front.png" alt="" />
           <p className="cardNumber">{cardNumber}</p>
           <p className="cardName">{cardName}</p>
           <p className="cardDate">
@@ -50,13 +50,13 @@ function App() {
           </p>
         </div>
         <div className="card-back">
-          <img src="src/assets/bg-card-back.png" alt="" />
+          <img src="assets/bg-card-back.png" alt="" />
           <p className="cardCVC">{cardCVC}</p>
         </div>
       </div>
       {isSubmited ? (
         <div className="forms thanks">
-          <img src="src/assets/icon-complete.svg" alt="" />
+          <img src="assets/icon-complete.svg" alt="" />
           <h1>Obrigado!</h1>
           <p>Você adicionou o seu cartão</p>
           <button onClick={() => window.location.reload(false)}>

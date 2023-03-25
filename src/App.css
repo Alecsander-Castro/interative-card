@@ -125,7 +125,7 @@ form input[type="submit"] {
 }
 @media screen and (max-width: 768px) {
   body {
-    background: url("src/assets/bg-main-mobile.png") repeat-x;
+    background: url("assets/bg-main-mobile.png") repeat-x;
     background-color: #fff;
   }
   .container {
