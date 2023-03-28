@@ -7,7 +7,7 @@
 }
 body {
   display: flex !important;
-  background-image: url("bg-main-desktop.png") no-repeat;
+  background-image: url("/assets/bg-main-desktop.png") no-repeat;
   background-color: #fff;
   justify-content: center;
 }
@@ -125,7 +125,7 @@ form input[type="submit"] {
 }
 @media screen and (max-width: 768px) {
   body {
-    background: url("assets/bg-main-mobile.png") repeat-x;
+    background: url("/assets/bg-main-mobile.png") repeat-x;
     background-color: #fff;
   }
   .container {
