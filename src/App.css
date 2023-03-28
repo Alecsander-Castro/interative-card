@@ -10,6 +10,7 @@ body {
   background: url("/assets/bg-main-desktop.png") no-repeat;
   background-color: #fff;
   justify-content: center;
+  color:  #fff;
 }
 
 .container {
