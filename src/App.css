@@ -7,7 +7,7 @@
 }
 body {
   display: flex !important;
-  background: url("bg-main-desktop.png") no-repeat;
+  background-image: url("bg-main-desktop.png") no-repeat;
   background-color: #fff;
   justify-content: center;
 }
