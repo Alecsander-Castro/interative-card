@@ -46,6 +46,7 @@ body {
 .thanks button {
   margin-top: -150px;
   background-color: hsl(278, 68%, 11%);
+  color: #fff;
 }
 .thanks img {
   margin: 0 auto;
